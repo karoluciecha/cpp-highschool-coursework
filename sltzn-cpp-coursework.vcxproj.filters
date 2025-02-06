@@ -20,7 +20,7 @@
     <ClCompile Include="SourceFiles\Main.cpp">
       <Filter>SourceFiles</Filter>
     </ClCompile>
-    <ClCompile Include="SourceFiles\Components\Conversion.cpp">
+    <ClCompile Include="SourceFiles\Components\BinaryConversion.cpp">
       <Filter>SourceFiles\Components</Filter>
     </ClCompile>
     <ClCompile Include="SourceFiles\Components\Cosine.cpp">
@@ -39,6 +39,9 @@
       <Filter>SourceFiles\Components</Filter>
     </ClCompile>
     <ClCompile Include="SourceFiles\Components\RecursiveExponentiation.cpp">
+      <Filter>SourceFiles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Components\HexadecimalConversion.cpp">
       <Filter>SourceFiles\Components</Filter>
     </ClCompile>
   </ItemGroup>

@@ -22,7 +22,7 @@ void konwersja(int liczba) {
     }
 }
 
-void runConversionProgram() {
+void runBinaryConversionProgram() {
     int liczba;
     cout << "Enter a number: ";
     // Loop that allows for multiple conversions until a non-number is entered

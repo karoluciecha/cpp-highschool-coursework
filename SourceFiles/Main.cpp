@@ -4,12 +4,13 @@ using namespace std;
 
 // Declarations of functions from individual modules
 void runCosineProgram();
-void runConversionProgram();
+void runBinaryConversionProgram();
 void runEuclidProgram();
 void runFibonacciProgram();
 void runRecursionProgram();
 void runPrimeNumberProgram();
 void runRecurvieExponentiationProgram();
+void runHexadecimalConversionProgram();
 
 int main() {
     int choice;
@@ -22,6 +23,7 @@ int main() {
 		cout << "5. Program calculating factorial\n";
 		cout << "6. Program checking if a number is prime\n";
 		cout << "7. Program calculating exponentiation\n";
+		cout << "8. Program converting a number to hexadecimal form\n";
         cout << "0. Exit\n\n";
         cout << "Select an option: ";
         cin >> choice;
@@ -35,7 +37,7 @@ int main() {
             break;
         case 2:
             system("CLS");
-            runConversionProgram();
+            runBinaryConversionProgram();
             system("CLS");
             break;
         case 3:
@@ -65,6 +67,12 @@ int main() {
 		case 7:
 			system("CLS");
 			runRecurvieExponentiationProgram();
+			system("PAUSE");
+			system("CLS");
+			break;
+		case 8:
+			system("CLS");
+			runHexadecimalConversionProgram();
 			system("PAUSE");
 			system("CLS");
 			break;

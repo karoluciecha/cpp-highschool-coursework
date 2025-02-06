@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{22cd6461-6a39-42b3-bbf7-2b7be6aad0a1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
@@ -12,34 +9,37 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Components">
-      <UniqueIdentifier>{90acb125-0cb7-4025-ac4c-b185e65cc5a2}</UniqueIdentifier>
+    <Filter Include="SourceFiles">
+      <UniqueIdentifier>{22cd6461-6a39-42b3-bbf7-2b7be6aad0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles\Components">
+      <UniqueIdentifier>{2994bd56-b04f-4e59-9a62-fa0dc2bb0ef7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Programs\RecursiveExponentiation.cpp">
-      <Filter>Source Files\Components</Filter>
+    <ClCompile Include="SourceFiles\Main.cpp">
+      <Filter>SourceFiles</Filter>
     </ClCompile>
-    <ClCompile Include="Programs\Conversion.cpp">
-      <Filter>Source Files\Components</Filter>
+    <ClCompile Include="SourceFiles\Components\Conversion.cpp">
+      <Filter>SourceFiles\Components</Filter>
     </ClCompile>
-    <ClCompile Include="Programs\Cosine.cpp">
-      <Filter>Source Files\Components</Filter>
+    <ClCompile Include="SourceFiles\Components\Cosine.cpp">
+      <Filter>SourceFiles\Components</Filter>
     </ClCompile>
-    <ClCompile Include="Programs\Euclid.cpp">
-      <Filter>Source Files\Components</Filter>
+    <ClCompile Include="SourceFiles\Components\Euclid.cpp">
+      <Filter>SourceFiles\Components</Filter>
     </ClCompile>
-    <ClCompile Include="Programs\Fibonacci.cpp">
-      <Filter>Source Files\Components</Filter>
+    <ClCompile Include="SourceFiles\Components\Fibonacci.cpp">
+      <Filter>SourceFiles\Components</Filter>
     </ClCompile>
-    <ClCompile Include="Programs\PrimeNumber.cpp">
-      <Filter>Source Files\Components</Filter>
+    <ClCompile Include="SourceFiles\Components\PrimeNumber.cpp">
+      <Filter>SourceFiles\Components</Filter>
     </ClCompile>
-    <ClCompile Include="Programs\Recursion.cpp">
-      <Filter>Source Files\Components</Filter>
+    <ClCompile Include="SourceFiles\Components\Recursion.cpp">
+      <Filter>SourceFiles\Components</Filter>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="SourceFiles\Components\RecursiveExponentiation.cpp">
+      <Filter>SourceFiles\Components</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

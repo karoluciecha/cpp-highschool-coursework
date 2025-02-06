@@ -27,14 +27,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Programs\Conversion.cpp" />
-    <ClCompile Include="Programs\Cosine.cpp" />
-    <ClCompile Include="Programs\Euclid.cpp" />
-    <ClCompile Include="Programs\Fibonacci.cpp" />
-    <ClCompile Include="Programs\PrimeNumber.cpp" />
-    <ClCompile Include="Programs\Recursion.cpp" />
-    <ClCompile Include="Programs\RecursiveExponentiation.cpp" />
+    <ClCompile Include="SourceFiles\Components\Conversion.cpp" />
+    <ClCompile Include="SourceFiles\Components\Cosine.cpp" />
+    <ClCompile Include="SourceFiles\Components\Euclid.cpp" />
+    <ClCompile Include="SourceFiles\Components\Fibonacci.cpp" />
+    <ClCompile Include="SourceFiles\Components\PrimeNumber.cpp" />
+    <ClCompile Include="SourceFiles\Components\Recursion.cpp" />
+    <ClCompile Include="SourceFiles\Components\RecursiveExponentiation.cpp" />
+    <ClCompile Include="SourceFiles\Main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

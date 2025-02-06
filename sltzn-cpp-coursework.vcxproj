@@ -26,6 +26,16 @@
       <Platform>ARM64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Programs\Conversion.cpp" />
+    <ClCompile Include="Programs\Cosine.cpp" />
+    <ClCompile Include="Programs\Euclid.cpp" />
+    <ClCompile Include="Programs\Fibonacci.cpp" />
+    <ClCompile Include="Programs\PrimeNumber.cpp" />
+    <ClCompile Include="Programs\Recursion.cpp" />
+    <ClCompile Include="Programs\RecursiveExponentiation.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -181,16 +191,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\All\Main.cpp" />
-    <ClCompile Include="..\All\Programs\Conversion.cpp" />
-    <ClCompile Include="..\All\Programs\Cosine.cpp" />
-    <ClCompile Include="..\All\Programs\Euclid.cpp" />
-    <ClCompile Include="..\All\Programs\Fibonacci.cpp" />
-    <ClCompile Include="..\All\Programs\PrimeNumber.cpp" />
-    <ClCompile Include="..\All\Programs\Recursion.cpp" />
-    <ClCompile Include="..\All\Programs\RecursiveExponentiation.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

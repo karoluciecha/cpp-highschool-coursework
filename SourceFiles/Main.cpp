@@ -11,6 +11,9 @@ void runRecursionProgram();
 void runPrimeNumberProgram();
 void runRecurvieExponentiationProgram();
 void runHexadecimalConversionProgram();
+void runDivisorsProgram();
+void runPointersChangeCalculator();
+void runGenderBasedGreetingProgram();
 
 int main() {
     int choice;
@@ -24,6 +27,9 @@ int main() {
 		cout << "6. Program checking if a number is prime\n";
 		cout << "7. Program calculating exponentiation\n";
 		cout << "8. Program converting a number to hexadecimal form\n";
+		cout << "9. Program calculating divisors\n";
+		cout << "10. Program calculating change using pointers\n";
+		cout << "11. Gender-Based Greeting Program\n";
         cout << "0. Exit\n\n";
         cout << "Select an option: ";
         cin >> choice;
@@ -73,6 +79,24 @@ int main() {
 		case 8:
 			system("CLS");
 			runHexadecimalConversionProgram();
+			system("PAUSE");
+			system("CLS");
+			break;
+        case 9:
+			system("CLS");
+			runDivisorsProgram();
+			system("PAUSE");
+			system("CLS");
+			break;
+		case 10:
+			system("CLS");
+			runPointersChangeCalculator();
+			system("PAUSE");
+			system("CLS");
+			break;
+		case 11:
+			system("CLS");
+			runGenderBasedGreetingProgram();
 			system("PAUSE");
 			system("CLS");
 			break;

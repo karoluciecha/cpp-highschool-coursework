@@ -44,5 +44,14 @@
     <ClCompile Include="SourceFiles\Components\HexadecimalConversion.cpp">
       <Filter>SourceFiles\Components</Filter>
     </ClCompile>
+    <ClCompile Include="SourceFiles\Components\Divisors.cpp">
+      <Filter>SourceFiles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Components\PointersChangeCalculator.cpp">
+      <Filter>SourceFiles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Components\GenderGeeting.cpp">
+      <Filter>SourceFiles\Components</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

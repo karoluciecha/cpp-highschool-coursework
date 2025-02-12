@@ -14,6 +14,10 @@ void runHexadecimalConversionProgram();
 void runDivisorsProgram();
 void runPointersChangeCalculator();
 void runGenderBasedGreetingProgram();
+void runEvenOddProgram();
+void runRectangleAreaProgram();
+void runRectangleDrawProgram();
+void runTriangleTestProgram();
 
 int main() {
     int choice;
@@ -30,6 +34,10 @@ int main() {
 		cout << "9. Program calculating divisors\n";
 		cout << "10. Program calculating change using pointers\n";
 		cout << "11. Gender-Based Greeting Program\n";
+		cout << "12. Program checking if a number is even or odd\n";
+		cout << "13. Program calculating the area of a rectangle\n";
+		cout << "14. Program drawing a rectangle\n";
+		cout << "15. Program checking if a triangle can be formed\n";
         cout << "0. Exit\n\n";
         cout << "Select an option: ";
         cin >> choice;
@@ -100,11 +108,36 @@ int main() {
 			system("PAUSE");
 			system("CLS");
 			break;
+		case 12:
+			system("CLS");
+			runEvenOddProgram();
+			system("PAUSE");
+			system("CLS");
+			break;
+		case 13:
+			system("CLS");
+			runRectangleAreaProgram();
+			system("PAUSE");
+			system("CLS");
+			break;
+		case 14:
+			system("CLS");
+			runRectangleDrawProgram();
+			system("PAUSE");
+			system("CLS");
+			break;
+		case 15:
+			system("CLS");
+			runTriangleTestProgram();
+			system("PAUSE");
+			system("CLS");
+			break;
         case 0:
             cout << "Program terminated.\n";
             break;
         default:
             cout << "Invalid choice. Please try again.\n";
+			break;
         }
     } while (choice != 0);
     return 0;

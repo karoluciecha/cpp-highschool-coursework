@@ -53,5 +53,17 @@
     <ClCompile Include="SourceFiles\Components\GenderGeeting.cpp">
       <Filter>SourceFiles\Components</Filter>
     </ClCompile>
+    <ClCompile Include="SourceFiles\Components\RectangleArea.cpp">
+      <Filter>SourceFiles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Components\RectangleDraw.cpp">
+      <Filter>SourceFiles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Components\TriangleTest.cpp">
+      <Filter>SourceFiles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Components\EvenOdd.cpp">
+      <Filter>SourceFiles\Components</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -31,13 +31,17 @@
     <ClCompile Include="SourceFiles\Components\Cosine.cpp" />
     <ClCompile Include="SourceFiles\Components\Divisors.cpp" />
     <ClCompile Include="SourceFiles\Components\Euclid.cpp" />
+    <ClCompile Include="SourceFiles\Components\EvenOdd.cpp" />
     <ClCompile Include="SourceFiles\Components\Fibonacci.cpp" />
     <ClCompile Include="SourceFiles\Components\GenderGeeting.cpp" />
     <ClCompile Include="SourceFiles\Components\HexadecimalConversion.cpp" />
     <ClCompile Include="SourceFiles\Components\PointersChangeCalculator.cpp" />
     <ClCompile Include="SourceFiles\Components\PrimeNumber.cpp" />
+    <ClCompile Include="SourceFiles\Components\RectangleArea.cpp" />
+    <ClCompile Include="SourceFiles\Components\RectangleDraw.cpp" />
     <ClCompile Include="SourceFiles\Components\Recursion.cpp" />
     <ClCompile Include="SourceFiles\Components\RecursiveExponentiation.cpp" />
+    <ClCompile Include="SourceFiles\Components\TriangleTest.cpp" />
     <ClCompile Include="SourceFiles\Main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

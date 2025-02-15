@@ -3,18 +3,17 @@
 
 using namespace std;
 
-int n, z = 0;
+bool method1(int n, int* z);
+bool method2(int n, int* z);
+bool method3(int n, int* z);
 
-bool method1(int n);
-bool method2(int n);
-bool method3(int n);
-
-void resetIterations() {
-    z = 0;
+void resetIterations(int* z) {
+    *z = 0;  // Dereference pointer to reset value
 }
 
 void runPrimeNumberProgram()
 {
+    int n, z = 0;
     cout << "Efficiency of the prime number determination algorithm" << endl << endl;
     cout << "0 for iteration count means that the for loop was not used." << endl << endl;
     cout << "Enter a number to check if it's prime: ";
@@ -27,27 +26,28 @@ void runPrimeNumberProgram()
             continue;
         }
     }
-    resetIterations();
+
+    resetIterations(&z);
     cout << "Method 1: ";
-    if (method1(n)) {
+    if (method1(n, &z)) {
         cout << "The number " << n << " is prime. Iteration count: " << z << "." << endl;
     }
     else {
         cout << "The number " << n << " is not prime. Iteration count: " << z << "." << endl;
     }
 
-    resetIterations();
+    resetIterations(&z);
     cout << "Method 2: ";
-    if (method2(n)) {
+    if (method2(n, &z)) {
         cout << "The number " << n << " is prime. Iteration count: " << z << "." << endl;
     }
     else {
         cout << "The number " << n << " is not prime. Iteration count: " << z << "." << endl;
     }
 
-    resetIterations();
+    resetIterations(&z);
     cout << "Method 3: ";
-    if (method3(n)) {
+    if (method3(n, &z)) {
         cout << "The number " << n << " is prime. Iteration count: " << z << "." << endl;
     }
     else {
@@ -55,30 +55,30 @@ void runPrimeNumberProgram()
     }
 }
 
-bool method1(int n) {
+bool method1(int n, int* z) {
     if (n <= 1) return false;
     for (int i = 2; i <= sqrt(n); i++) {
-        z++;
+        (*z)++;  // Increment iteration counter using pointer
         if (n % i == 0) return false;
     }
     return true;
 }
 
-bool method2(int n) {
+bool method2(int n, int* z) {
     if (n <= 1) return false;
     if (n > 2 && n % 2 == 0) return false;
     for (int i = 3; i <= sqrt(n); i += 2) {
-        z++;
+        (*z)++;  // Increment iteration counter using pointer
         if (n % i == 0) return false;
     }
     return true;
 }
 
-bool method3(int n) {
+bool method3(int n, int* z) {
     if (n <= 1) return false;
     if (n > 2 && n % 2 == 0) return false;
     for (int i = 3; i <= sqrt(n); i += 2) {
-        z++;
+        (*z)++;  // Increment iteration counter using pointer
         if (n % i == 0) return false;
     }
     return true;

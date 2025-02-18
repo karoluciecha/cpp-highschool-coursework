@@ -29,10 +29,13 @@
   <ItemGroup>
     <ClCompile Include="SourceFiles\Components\BattleShip.cpp" />
     <ClCompile Include="SourceFiles\Components\BinaryConversion.cpp" />
+    <ClCompile Include="SourceFiles\Components\BinaryOperations.cpp" />
     <ClCompile Include="SourceFiles\Components\BMITemperature.cpp" />
     <ClCompile Include="SourceFiles\Components\Calculations.cpp" />
     <ClCompile Include="SourceFiles\Components\ChocolateShare.cpp" />
     <ClCompile Include="SourceFiles\Components\Cosine.cpp" />
+    <ClCompile Include="SourceFiles\Components\DataOperators.cpp" />
+    <ClCompile Include="SourceFiles\Components\DataTypes.cpp" />
     <ClCompile Include="SourceFiles\Components\Divisors.cpp" />
     <ClCompile Include="SourceFiles\Components\Euclid.cpp" />
     <ClCompile Include="SourceFiles\Components\EvenOdd.cpp" />
@@ -40,6 +43,7 @@
     <ClCompile Include="SourceFiles\Components\GenderGeeting.cpp" />
     <ClCompile Include="SourceFiles\Components\GradeCalculator.cpp" />
     <ClCompile Include="SourceFiles\Components\HexadecimalConversion.cpp" />
+    <ClCompile Include="SourceFiles\Components\LongestIncreasingSubsequence.cpp" />
     <ClCompile Include="SourceFiles\Components\MoneyChanger.cpp" />
     <ClCompile Include="SourceFiles\Components\NumberSorter.cpp" />
     <ClCompile Include="SourceFiles\Components\PointersChangeCalculator.cpp" />
@@ -53,6 +57,16 @@
     <ClCompile Include="SourceFiles\Components\WordModifications.cpp" />
     <ClCompile Include="SourceFiles\Components\WordTransformations.cpp" />
     <ClCompile Include="SourceFiles\Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SourceFiles\ResourceFiles\bmi.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="SourceFiles\ResourceFiles\bmi.txt" />
+    <Text Include="SourceFiles\ResourceFiles\grades.txt" />
+    <Text Include="SourceFiles\ResourceFiles\sequences.txt" />
+    <Text Include="SourceFiles\ResourceFiles\subsequences.txt" />
+    <Text Include="SourceFiles\ResourceFiles\subsetSumSortInput.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

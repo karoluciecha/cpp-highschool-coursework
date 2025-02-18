@@ -58,7 +58,7 @@ void runSubsetSumSortProgram() {
     cout << "10 15" << endl;
     cout << "1 1 1 1 1 1 1 1 1 1" << endl;
     cout << "---------------------------------" << endl;
-    cout << "Current input file name: ../ResourceFiles/SubsetSumSortInput.txt" << endl;
+    cout << "Current input file name: ../ResourceFiles/subsetSumSortInput.txt" << endl;
     
     // FILE OPERATION
     // Asking user for the input file

@@ -34,11 +34,11 @@ vector<int> getLongestIncreasingSubsequence(vector<int>& arr) {
 }
 
 void runLongestIncreasingSubsequenceProgram() {
-    ifstream infile("../ResourceFiles/sequences.txt");
-    ofstream outfile("../ResourceFiles/subsequences.txt");
+    ifstream infile("SourceFiles/ResourceFiles/sequences.txt");
+    ofstream outfile("SourceFiles/ResourceFiles/subsequences.txt");
     
     if (!infile) {
-        cerr << "Error: Unable to open input file (../ResourceFiles/sequences.txt)." << endl;
+        cerr << "Error: Unable to open input file (SourceFiles/ResourceFiles/sequences.txt)." << endl;
         return;
     }
     
@@ -74,7 +74,7 @@ void runLongestIncreasingSubsequenceProgram() {
     
     infile.close();
     outfile.close();
-    cout << "Results have been saved to ResourceFiles/subsequences.txt." << endl;
-    cout << "To calculate different sequences, please edit the file located at ResourceFiles/sequences.txt." << endl;
+    cout << "Results have been saved to SourceFiles/ResourceFiles/subsequences.txt." << endl;
+    cout << "To calculate different sequences, please edit the file located at SourceFiles/ResourceFiles/sequences.txt." << endl;
     return;
 }

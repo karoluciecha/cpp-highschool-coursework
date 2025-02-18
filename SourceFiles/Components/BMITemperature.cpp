@@ -9,8 +9,8 @@ int choice = 0;
 
 void bmiCalculation() {
     float a, b, calculatedBmi;
-    ifstream inputFile("../ResourceFiles/bmi.txt");
-    ofstream outputFile("../ResourceFiles/bmi.html");
+    ifstream inputFile("SourceFiles/ResourceFiles/bmi.txt");
+    ofstream outputFile("SourceFiles/ResourceFiles/bmi.html");
     
     if (!inputFile) {
         cout << "Cannot open the file.\n";
@@ -45,7 +45,7 @@ void bmiCalculation() {
         
         cout << "\nYour BMI is: " << bmi << endl;
         
-        ofstream appendFile("bmi.txt", ios::app);
+        ofstream appendFile("SourceFiles/ResourceFiles/bmi.txt", ios::app);
         appendFile << weight << " " << height * 100 << endl;
         appendFile.close();
         
@@ -55,7 +55,7 @@ void bmiCalculation() {
     outputFile << "</table>\n</body>\n</html>\n";
     outputFile.close();
     
-    cout << "BMI results have been saved to bmi.html\n";
+    cout << "BMI results have been saved to SourceFiles/ResourceFiles/bmi.html\n";
 }
 
 void temperatureConversion() {

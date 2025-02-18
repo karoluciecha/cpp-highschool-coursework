@@ -44,7 +44,7 @@ void runGradeCalculatorProgram() {
     cout << "=============================================\n\n";
 
     cout << "This program reads grades from a file and calculates the weighted average.\n";
-    cout << "The current input file name is: ResourceFiles/grades.txt\n";
+    cout << "The current input file name is: SourceFiles/ResourceFiles/grades.txt\n";
     cout << "Each line in the file should contain a grade (1-6) and its weight (1-5) separated by a space.\n";
     cout << "Example file content:\n";
     cout << "----------------------\n";
@@ -53,17 +53,17 @@ void runGradeCalculatorProgram() {
     cout << "3- 1 (Grade 3- with weight 1, '-' decreases by 0.25)\n";
     cout << "----------------------\n\n";
 
-    ifstream file("../ResourceFiles/grades.txt");
+    ifstream file("SourceFiles/ResourceFiles/grades.txt");
 
     system("pause");
 
     // Check if file opens successfully
     if (!file.is_open()) {
-        cout << "Error: Unable to open '../ResourceFiles/grades.txt'. Please ensure the file exists in the program directory.\n";
+        cout << "Error: Unable to open 'SourceFiles/ResourceFiles/grades.txt'. Please ensure the file exists in the program directory.\n";
         return;
     }
 
-    cout << "\nReading grades from '../ResourceFiles/grades.txt'...\n";
+    cout << "\nReading grades from 'SourceFiles/ResourceFiles/grades.txt'...\n";
 
     // Read each line from the file
     while (getline(file, line)) {
@@ -90,5 +90,5 @@ void runGradeCalculatorProgram() {
     cout << "=============================================\n";
     cout << "Fraction adjustments applied: " << fractionAdjustment << endl;
     cout << "Final weighted average: " << average << "\n";
-    cout << "=============================================\n";
+    cout << "=============================================\n\n";
 }

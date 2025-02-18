@@ -95,5 +95,39 @@
     <ClCompile Include="SourceFiles\Components\WordTransformations.cpp">
       <Filter>SourceFiles\Components</Filter>
     </ClCompile>
+    <ClCompile Include="SourceFiles\Components\BinaryOperations.cpp">
+      <Filter>SourceFiles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Components\DataTypes.cpp">
+      <Filter>SourceFiles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Components\DataOperators.cpp">
+      <Filter>SourceFiles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\Components\LongestIncreasingSubsequence.cpp">
+      <Filter>SourceFiles\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="SourceFiles\ResourceFiles\bmi.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="SourceFiles\ResourceFiles\grades.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="SourceFiles\ResourceFiles\sequences.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="SourceFiles\ResourceFiles\subsequences.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="SourceFiles\ResourceFiles\subsetSumSortInput.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SourceFiles\ResourceFiles\bmi.html">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

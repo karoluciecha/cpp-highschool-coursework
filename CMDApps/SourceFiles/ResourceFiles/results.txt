@@ -1,0 +1,5 @@
+Binary number: 01011100 equals 92 in decimal.
+
+Decimal number: 123 in binary: 1111011
+Reversed binary value: 111 in binary: 1101111
+

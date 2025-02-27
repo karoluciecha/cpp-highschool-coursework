@@ -1,2 +1,0 @@
-Binary number: 2122122121 equals 65 in decimal.
-

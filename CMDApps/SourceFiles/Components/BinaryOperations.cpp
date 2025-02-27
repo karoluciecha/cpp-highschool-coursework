@@ -7,7 +7,7 @@ using namespace std;
 char choice;
 
 void binaryToDecimalRight() {
-    ofstream output("results.txt", ios_base::app);
+    ofstream output("SourceFiles/ResourceFiles/results.txt", ios_base::app);
     int bin, decimal = 0, weight = 128;
     output << "Binary number: ";
     while (weight >= 1) {
@@ -25,7 +25,7 @@ void binaryToDecimalRight() {
 }
 
 void binaryToDecimalLeft() {
-    ofstream output("results.txt", ios_base::app);
+    ofstream output("SourceFiles/ResourceFiles/results.txt", ios_base::app);
     int bin, decimal = 0, weight = 1;
     int binaryArray[8], index = 7;
     while (weight <= 128) {
@@ -48,7 +48,7 @@ void binaryToDecimalLeft() {
 }
 
 void binaryIPAddress() {
-    ofstream output("results.txt", ios_base::app);
+    ofstream output("SourceFiles/ResourceFiles/results.txt", ios_base::app);
     int bin, weight = 128, segment = 0;
     string ipAddress;
     output << "Binary IP address: ";
@@ -79,7 +79,7 @@ void binaryIPAddress() {
 void bitReversal() {
     int base = 65536, bin[17], i = 16, j = 0;
     long long inputDec = 0, reversedDec = 0;
-    ofstream output("results.txt", ios_base::app);
+    ofstream output("SourceFiles/ResourceFiles/results.txt", ios_base::app);
     cout << "Enter a positive decimal number: ";
     cin >> inputDec;
     while (inputDec < 0) {
@@ -120,7 +120,7 @@ void bitReversal() {
 }
 
 void runBinaryOperationsProgram() {
-    ofstream output("results.txt", ios_base::trunc);
+    ofstream output("SourceFiles/ResourceFiles/results.txt", ios_base::trunc);
     char choice;
 
     do {
